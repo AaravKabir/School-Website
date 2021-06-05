@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src=""></script>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">P.S.188</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#whats_new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#details">Contact us</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">*** Feel free to ask questions at 929-600-5683 ***</marquee>
+    </div>
+    <img class="img-responsive col-lg-12 col-md-12 col-sm-12 col-xs-12" src="ps-188.jpg">
+
+    <div class="container">
+
+        <div class="page-header" id="activities">
+            <h2 class="text-capitalize">
+                activites
+            </h2>
+
+            <div class="row">
+                <div class="travel_mainDiv">
+                    <img class="col-lg-3 col-md-3 col-sm-3-col-xs-12 img-responsive" src="chorus.jpg">
+
+                    <h4 class="text-capitalize"><kbd>chorus</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">P.S.188Q's chorus shows off their fantastic talent to parents, staff and school mates!</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="col-lg-3 col-md-3 col-sm-3-col-xs-12 img-responsive" src="basketballActivites.jpeg">
+
+                    <h4 class="text-capitalize"><kbd>basketball team</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">P.S.188Q's basketball team competes against other schools to showcase their talent!</p>
+                </div>
+                <div class="travel_mainDiv">
+                    <img class="col-lg-3 col-md-3 col-sm-3-col-xs-12 img-responsive" src="https://images.csmonitor.com/csmarchives/2011/05/0504-ANAEPCIVICS-high-school-seniors-civics-class.jpg?alias=standard_900x600nc">
+
+                    <h4 class="text-capitalize"><kbd>school government </kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">P.S.188Q's students vote for a president, vice president, and secretary each year!</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">Achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#basketball">
+            <span class="glyphicon glyphicon-film"></span>
+            School BasketBall Trophy
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="basketball" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><img src="basketball.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-left text-success">P.S.188Q won a school basketball trophy!
+                </h5>
+            </div>
+        </div>
+
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#chess">
+            <span class="glyphicon glyphicon-film"></span>
+            Chess Tournament
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="chess" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12"><img src="https://www.trophies2go.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/0/7000.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class=" text-left text-success">
+                    Got 1st place in a unrated chess tournament!</h5>
+            </div>
+        </div>
+
+        <h2 class="text-capitalize">Alumni</h2>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#hemingway">
+            <img src=hemingway.jpeg class="img-responsive img_non_modal">
+            <hr>
+            <p class="text-primary"> Ernest Hemingway</p>
+        </div>
+        <div class="modal fade" id="hemingway">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Ernest Hemingway</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="hemingway2.jpeg" class="img-responsive img_modal">
+                        <br>
+                        <p class="p_modal">Ernest Miller Hemingway was an American novelist, short-story writer, journalist, and sportsman. His economical and understated style—which he termed the iceberg theory—had a strong influence on 20th-century fiction, while his adventurous lifestyle and his public image brought him admiration from later generations.
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Ernest_Hemingway" target="_blank"><b>Learn More Here</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#manning">
+            <img src=manning.jpeg class="img-responsive img_non_modal">
+            <hr>
+            <p class="text-primary"> Peyton Manning</p>
+        </div>
+        <div class="modal fade" id="manning">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Peyton Manning</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="manning2.png" class="img-responsive img_modal">
+                        <br>
+                        <p class="p_modal">Peyton Williams Manning is a former American football quarterback who played in the National Football League for 18 seasons. Considered to be one of the greatest quarterbacks of all time, he spent 14 seasons with the Indianapolis Colts and four with the Denver Broncos.
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Peyton_Manning" target="_blank"><b>Learn More Here</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#sheen">
+            <img src=sheen.jpeg class="img-responsive img_non_modal">
+            <hr>
+            <p class="text-primary"> Charlie Sheen</p>
+        </div>
+        <div class="modal fade" id="sheen">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Charlie Sheen</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="sheen2.jpeg" class="img-responsive img_modal">
+                        <br>
+                        <p class="p_modal">Carlos Irwin Estévez (born September 3, 1965), known professionally as Charlie Sheen, is an American actor. He has appeared in films such as Platoon (1986), Wall Street (1987), Young Guns (1988), The Rookie (1990), The Three Musketeers (1993), and The Arrival (1996). In the 2000s, when Sheen replaced Michael J. Fox as the star of ABC's Spin City, his portrayal of Charlie Crawford earned him a Golden Globe Award for Best Actor. He then starred as Charlie Harper on the CBS sitcom Two and a Half Men (2003—11), for which he received several Golden Globe and Emmy Award nominations, and as Dr. Charles "Charlie" Goodson on the FX series Anger Management (2012–14). In 2010, Sheen was the highest-paid actor on television, earning US$1.8 million per episode of Two and a Half Men.
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Charlie_Sheen" target="_blank"><b>Learn More Here</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#diamond">
+            <img src=diamond.jpeg class="img-responsive img_non_modal">
+            <hr>
+            <p class="text-primary">Neil Diamond</p>
+        </div>
+        <div class="modal fade" id="diamond">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Neil Diamond</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="diamond2.jpeg" class="img-responsive img_modal">
+                        <br>
+                        <p class="p_modal">Neil Leslie Diamond (born January 24, 1941) is an American singer-songwriter and actor. He has sold more than 100 million records worldwide, making him one of the best-selling musicians of all time.He has had ten No. 1 singles on the Hot 100 and Adult Contemporary charts: "Cracklin' Rosie", "Song Sung Blue", "Longfellow Serenade", "I've Been This Way Before", "If You Know What I Mean", "Desirée", "You Don't Bring Me Flowers", "America", "Yesterday's Songs", and "Heartlight". Thirty-eight songs by Diamond have featured in the Top 10 on the Billboard Adult Contemporary charts.
+                            <br>
+                            <a href="https://en.wikipedia.org/wiki/Neil_Diamond" target="_blank"><b>Learn More Here</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whats_new">
+            <h2 class="text-capitalize">whats new</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>The School has chose it's leaders!</h4>
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">As all the votes were counted, PS188Q was in great suspense to see their new presidents, vice presidents, and secrataries. The chosen ones were Pinocchio Sultan Cheshire, Tobias Willie, and Sisay Henning</p>
+            </li>
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>The School Shut Down</h4>
+                <p>The school has had to shut down because of covid-19.All students and staff have to work from home for 1 week. this is because the covid tests, reported more than 3 cases in the school, responding in a school shutdown.</p>
+            </li>
+        </ul>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+                <h2 class="text-capitalize">Contact us</h2>
+            </div>
+
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12093.273075250492!2d-73.75955285!3d40.733021799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c261894b38001d%3A0xf848659fba111e24!2sP.S.%20188%20Kingsbury!5e0!3m2!1sen!2sus!4v1613437272650!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div id="details">
+                <h3>Principal Name:</h3>
+                <h4>Dr. Janet Caraisco</h4>
+                <div class="contact_1">
+                    <a href="mailto:mperez-fung@schools.nyc.gov?subject=Hi">
+                        <h5><i class=" fa fa-envelope"></i>&nbsp;&nbsp;mperez-fung@schools.nyc.gov</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;9296005683</h5>
+                    </a>
+                </div>
+            </div>
+            </section>
+
+        </div>
+</body></html>
